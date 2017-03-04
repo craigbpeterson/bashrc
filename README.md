@@ -1,5 +1,5 @@
 # bashrc
-Custom colors for the Linux Terminal
+Super sweet custom colors for the Linux Terminal
 
 Updated March 2nd with custom command prompt styles
 
