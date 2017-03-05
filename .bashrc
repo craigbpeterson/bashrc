@@ -123,6 +123,8 @@ PS1='\n\[\e[0;31m\]☻\[\e[0;35m\]☻\[\e[0;34m\]☻\[\e[0;36m\]☻ \[\e[1;37m\]
 LS_COLORS=$LS_COLORS:'di=1;93;42:' ; export LS_COLORS
 LS_COLORS=$LS_COLORS:'fi=1;34:' ; export LS_COLORS
 
+# This terminal prompt has been tested and approved by Big Daddy Papa Sado Brady to the 3rd degree (James Shively III).  Dating back to 2217-3/3/17
+
 
 # Gloria's custom prompt
 # PS1='
