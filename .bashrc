@@ -117,12 +117,13 @@ fi
 # Creates a custom prompt with date and time in a box, and user and host called out individually
 PS1='\n\[\e[0;31m\]☻\[\e[0;35m\]☻\[\e[0;34m\]☻\[\e[0;36m\]☻ \[\e[1;37m\]\[\e[1;40m\] ┏━━━━━━━━━━━━┓ \[\e[m\]\n\[\e[0;31m\]☣\[\e[0;35m\]☣\[\e[0;34m\]☣\[\e[0;36m\]☣ \[\e[1;37m\]\[\e[1;40m\] ┫ \d ┣ \[\e[m\]\n\[\e[0;31m\]☠\[\e[0;35m\]☠\[\e[0;34m\]☠\[\e[0;36m\]☠ \[\e[1;37m\]\[\e[1;40m\] ┫  \@  ┣ \[\e[m\]\n\[\e[0;31m\]☎\[\e[0;35m\]☎\[\e[0;34m\]☎\[\e[0;36m\]☎ \[\e[1;37m\]\[\e[1;40m\] ┗━━━━━━━━━━━━┛ \[\e[m\]\n\[\e[0;31m\]☢\[\e[0;35m\]☢\[\e[0;34m\]☢\[\e[0;36m\]☢ \[\e[1;32m\]\[\e[1;40m\] ⋐ USER: \[\e[1;33m\]\u \[\e[1;32m\] \[\e[m\]\n\[\e[0;31m\]✪\[\e[0;35m\]✪\[\e[0;34m\]✪\[\e[0;36m\]✪ \[\e[1;32m\]\[\e[1;40m\] ⋐ HOST: \[\e[1;33m\]\h \[\e[1;32m\] \[\e[m\]\n\[\e[0;31m\]✿\[\e[0;35m\]✿\[\e[0;34m\]✿\[\e[0;36m\]✿ \[\e[1;32m\]\[\e[1;40m\] ⋐ PATH: \[\e[1;33m\]$(pwd) \[\e[1;32m\] \[\e[m\]\n\[\e[0;31m\]☘\[\e[0;35m\]☘\[\e[0;34m\]☘\[\e[0;36m\]☘ \[\e[1;34m\]\[\e[1;40m\] ⋐ TYPE YOUR COMMANDS HERE, BRUH: \$ \[\e[m\] '
 
+
 # Craig Peterson LS Color Customization
 # Causes directories to be listed in yellow text on a green background
 # Also causes files to be listed in blue text
 LS_COLORS=$LS_COLORS:'di=1;93;42:' ; export LS_COLORS
 LS_COLORS=$LS_COLORS:'fi=1;34:' ; export LS_COLORS
-
+# Gloria Zhang has tested Craig's custom prompt design. It looks amazing!!!! Just the way it was expected! :)
 
 # Gloria's custom prompt
 # PS1='
